@@ -476,7 +476,7 @@ export const OnboardingScreen: React.FC = () => {
             ageGroup === 'child' && styles.selectionCardActive,
           ]}
           accessible={true}
-          accessibilityLabel="Opção Criança. Toque duas vezes para selecionar."
+          accessibilityLabel="Opção Criança. Toque para selecionar"
         >
           <Text
             style={[
@@ -495,7 +495,7 @@ export const OnboardingScreen: React.FC = () => {
             ageGroup === 'elderly' && styles.selectionCardActive,
           ]}
           accessible={true}
-          accessibilityLabel="Opção Idoso. Toque duas vezes para selecionar."
+          accessibilityLabel="Opção Idoso. Toque para selecionar."
         >
           <Text
             style={[
@@ -534,7 +534,7 @@ export const OnboardingScreen: React.FC = () => {
           onPress={handleRegister}
           title="Próximo: Teste"
           variant="primary"
-          speakTextValue="Próximo: Teste. Toque duas vezes para continuar."
+          speakTextValue="Próximo: Teste. Toque para continuar."
         />
       </View>
     </View>
